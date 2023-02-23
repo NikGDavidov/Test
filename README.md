@@ -52,26 +52,26 @@
 - cat  “Домашние животные.txt” ”Вьючные животные.txt” > “Друзья человека.txt”
 -cat  “Друзья человека.txt”
 2. Создать директорию, переместить файл туда.
--mkdir animals
--mv “Друзья человека.txt” /home/nd/animals
+- mkdir animals
+- mv “Друзья человека.txt” /home/nd/animals
 3. Подключить дополнительный репозиторий MySQL. Установить любой пакет
 из этого репозитория.
--wget https://dev.mysql.com/get/mysql-apt-config_0.8.15-1_all.deb
--sudo dpkg –I mysql-apt-config_0.8.15-1_all.deb
--sudo apt-get update
--sudo apt-get install mysql-server
--sudo apt-get install mysql-client
+- wget https://dev.mysql.com/get/mysql-apt-config_0.8.15-1_all.deb
+- sudo dpkg –I mysql-apt-config_0.8.15-1_all.deb
+- sudo apt-get update
+- sudo apt-get install mysql-server
+- sudo apt-get install mysql-client
 4. Установить и удалить deb-пакет с помощью dpkg.
 - apt download apache2
--sudo dpkg –i apache2_2.4.52-1ubuntu4.3_amd.deb
--sudo apt –f install
--sudo dpkg –r apache2
+- sudo dpkg –i apache2_2.4.52-1ubuntu4.3_amd.deb
+- sudo apt –f install
+- sudo dpkg –r apache2
 5. Выложить историю команд в терминале ubuntu
--history
+- history
 6. Нарисовать диаграмму, в которой есть класс родительский класс, домашние
 животные и вьючные животные, в составы которых в случае домашних
 животных войдут классы: собаки, кошки, хомяки, а в класс вьючные животные
 войдут: Лошади, верблюды и ослы).
 - файл schema.drawio
- пп7 – 12 -  скриншоты команд MySQL и результатов их выполнения  в терминале Ubuntu  находятся в папке SQL
+пп 7 – 12 -  скриншоты команд MySQL и результатов их выполнения  в терминале Ubuntu  находятся в папке SQL
 пп 13– 15 -  выполнены на Java, входной класс src/Main.
